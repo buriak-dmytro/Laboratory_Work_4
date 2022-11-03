@@ -73,7 +73,7 @@ namespace Task1
             }
 
             double realNumeratorNew = real * complexNumber.real + imaginary * complexNumber.imaginary;
-            double imaginaryNumeratorNew = real * complexNumber.imaginary - imaginary * complexNumber.real;
+            double imaginaryNumeratorNew = imaginary * complexNumber.real - real * complexNumber.imaginary;
             double denominatorNew = 
                 complexNumber.real * complexNumber.real + 
                 complexNumber.imaginary * complexNumber.imaginary;
